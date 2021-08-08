@@ -4,7 +4,7 @@ The repository contains examples and programs from the book *“Parallel Softwa
 
 ## Abstract of the book
 
-This book covers parallel software for the Robust Multigrid Technique and presents basic concepts for black box software development in the computational continuum mechanics (thermal conductivity, chemical hydrodynamics, convective heat transfer, electrodynamics, etc.) in Chapter 1. Developed parallel software uses OpenMP technology (3, 9 or 27 threads) for shared memory computers. 
+This book covers parallel software for the __Robust Multigrid Technique__ (RMT) and presents basic concepts for black box software development in the computational continuum mechanics (thermal conductivity, chemical hydrodynamics, convective heat transfer, electrodynamics, etc.) in Chapter 1. Developed parallel software uses OpenMP technology (3, 9 or 27 threads) for shared memory computers. 
 
 FORTRAN language subroutines for parallel solving 3D boundary value problems by block Gauss-Seidel method (Vanka-type smoother) are given in Chapters 2. These subroutines implement the algebraic parallelism of RMT (parallel smoothing on the finest grid).
 
@@ -24,7 +24,7 @@ This book presents a detailed description of a robust pseudomultigrid algorithm 
 
 ## Sequential Software for the Robust Multigrid Technique
 
-This book (https://github.com/simartynenko/Robust_Multigrid_Technique_2020) covers sequential software for the Robust Multigrid Technique (RMT) and presents basic concepts of modern numerical methods for mathematical modeling of physical and chemical processes in the computational continuum mechanics (thermal conductivity, chemical hydrodynamics, convective heat transfer, electrodynamics, etc.). FORTRAN language subroutines for solving the boundary value problems of the computational continuum mechanics by point and block Seidel method (Vanka-type smoother) are given in Chapters 1-4. The multigrid module `RMT_3D_2020` is described in detail in Chapter 2 of this book. The module contains subroutines for implementation of the problem-independent components of the Robust Multigrid Technique for solving the three-dimensional boundary value problems. Examples of the multigrid module `RMT_3D_2020` application in static and dynamic cycles are given in Chapters 3 and 4. Chapter “Short history of RMT” represents the historical development of the Robust Multigrid Technique.
+This book (https://github.com/simartynenko/Robust_Multigrid_Technique_2020) covers sequential software for the __Robust Multigrid Technique__ (RMT) and presents basic concepts of modern numerical methods for mathematical modeling of physical and chemical processes in the computational continuum mechanics (thermal conductivity, chemical hydrodynamics, convective heat transfer, electrodynamics, etc.). FORTRAN language subroutines for solving the boundary value problems of the computational continuum mechanics by point and block Seidel method (Vanka-type smoother) are given in Chapters 1-4. The multigrid module `RMT_3D_2020` is described in detail in Chapter 2 of this book. The module contains subroutines for implementation of the problem-independent components of the Robust Multigrid Technique for solving the three-dimensional boundary value problems. Examples of the multigrid module `RMT_3D_2020` application in static and dynamic cycles are given in Chapters 3 and 4. Chapter “Short history of RMT” represents the historical development of the Robust Multigrid Technique.
 
 ## List of modules
 
