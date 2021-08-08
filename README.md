@@ -8,7 +8,7 @@ This book covers parallel software for the Robust Multigrid Technique and presen
 
 FORTRAN language subroutines for parallel solving 3D boundary value problems by block Gauss-Seidel method (Vanka-type smoother) are given in Chapters 2. These subroutines implement the algebraic parallelism of RMT (parallel smoothing on the finest grid).
 
-The parallel multigrid module RMT_3D_2020_OpenMP is described in detail in Chapter 3. The module contains subroutines for parallel implementation of the problem-independent components of the RMT for the 3D coarse grid smoothing (geometric parallelism of RMT). 
+The parallel multigrid module `RMT_3D_2020_OpenMP` is described in detail in Chapter 3. The module contains subroutines for parallel implementation of the problem-independent components of the RMT for the 3D coarse grid smoothing (geometric parallelism of RMT). 
 
 Chapter 4 represents parallel software for solving 3D Dirichlet boundary value problem for Poisson equation (combination of geometric and algebraic parallelisms) and parallel RMT-based algorithm for solving the initial-boundary value problems.
 
