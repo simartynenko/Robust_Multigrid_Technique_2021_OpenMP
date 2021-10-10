@@ -26,5 +26,14 @@ jobs:
           cd Parallel_Finest_Grid_Smoothing_M
           gfortran-11 -O3 -fopenmp Parallel_Finest_Grid_Smoothing_1.f90 Parallel_Finest_Grid_Smoothing_2.f90 Parallel_Finest_Grid_Smoothing_M.f90 -o Parallel_Finest_Grid_Smoothing_M
           ./Parallel_Finest_Grid_Smoothing_M
-          less Parallel_Finest_Grid_Smoothing.03
+          cat Parallel_Finest_Grid_Smoothing.03
           cd ..
+          
+      - name: Build and run program Integrals_M
+        run: |
+          cd Integrals_M
+          gfortran-11 -O3 -fopenmp Integrals_1.f90 Integrals_2.f90 Integrals_M.f90 -I.. ../RMT_3D_UFG.o -I../RMT_MacOS_x86_64 -L../RMT_MacOS_x86_64 -lRMT_3D_2020_OpenMP -o Integrals_M
+          ./Integrals_M
+          for f in *.txt; do echo "$f"; head -n 10 "$f"; done
+          cd ..
+          
