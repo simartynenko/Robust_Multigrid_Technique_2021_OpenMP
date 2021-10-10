@@ -10,6 +10,8 @@ on:
 
 jobs:
   Fortran-CI:
+    name: macos-11
+    
     runs-on: macos-11
 
     steps:
@@ -43,7 +45,7 @@ jobs:
           cat Parallel_Coarse_Grid_Smoothing.03
           cd ..
         
-      - name: Build and run program Parallel_Coarse_Grid_Smoothing_M
+      - name: Build and run program Multigrid_Iterations_M
         run: |
           cd Multigrid_Iterations_M
           gfortran-11 -O3 -fopenmp Multigrid_Iterations_1.f90 Multigrid_Iterations_2.f90 Multigrid_Iterations_M.f90 -I.. ../RMT_3D_UFG.o -I../RMT_MacOS_x86_64 -L../RMT_MacOS_x86_64 -lRMT_3D_2020_OpenMP -o Multigrid_Iterations_M
