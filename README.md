@@ -1,5 +1,7 @@
 # The book: *“Parallel Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko
 
+[![Fortran CI](https://github.com/simartynenko/Robust_Multigrid_Technique_2021_OpenMP/actions/workflows/ci.yml/badge.svg)](https://github.com/simartynenko/Robust_Multigrid_Technique_2021_OpenMP/actions/workflows/ci.yml)
+
 The repository contains examples and programs from the book *“Parallel Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko, Triumph, Moscow, 2021. Complete text of the book in Russian is ~~available via the link~~. Abstract in English, theoretical background and description of the source code files are provided below.
 
 ## Abstract of the book
