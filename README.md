@@ -28,7 +28,7 @@ This book (https://github.com/simartynenko/Robust_Multigrid_Technique_2020) cove
 
 ## List of modules
 
-Multigrid modules `RMT_3D_2020_OpenMP` (chapter 3) includes subprograms for main components of RMT for parallel solving 3D boundary value problems. *The multigrid module is available as a static library only for Intel Fortran Compiler under Windows and GFortran under Linux operation systems.*
+Multigrid module `RMT_3D_2020_OpenMP` (chapter 3) includes subprograms for main components of RMT for parallel solving 3D boundary value problems. *The multigrid module is available as a static library only for Intel Fortran Compiler under Windows and GFortran under Linux operation systems.*
 
 Module `RMT_3D_UFG` includes the subprogram `U_Finest_Grid` for the uniform grid generation (§ 1, § 3 chapter 2 in book *«Sequential Software for the Robust Multigrid Technique»*).
 
