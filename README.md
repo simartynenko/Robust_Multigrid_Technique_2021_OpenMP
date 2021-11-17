@@ -2,7 +2,7 @@
 
 [![Fortran CI](https://github.com/simartynenko/Robust_Multigrid_Technique_2021_OpenMP/actions/workflows/ci.yml/badge.svg)](https://github.com/simartynenko/Robust_Multigrid_Technique_2021_OpenMP/actions/workflows/ci.yml)
 
-The repository contains examples and programs from the book *“Parallel Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko, Triumph, Moscow, 2021. Complete text of the book in Russian is ~~available via the link~~. Abstract in English, theoretical background and description of the source code files are provided below.
+The repository contains examples and programs from the book *“Parallel Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko, Triumph, Moscow, 2021. Complete text of the book in Russian is available via the [link](../master/С.%20И.%20Мартыненко%20-%20Параллельное%20программное%20обеспечение%20для%20универсальной%20многосеточной%20технологии.pdf). Abstract in English, theoretical background and description of the source code files are provided below.
 
 ## Abstract of the book
 
@@ -22,7 +22,7 @@ Potential readers are graduate students and researchers working in applied and n
 
 All the required mathematical background is provided in the book: S. I. Martynenko “The Robust Multigrid Technique: For Black-Box Software”, de Gruyter, Berlin, 2017 (https://www.degruyter.com/view/title/527481).
 
-This book presents a detailed description of a robust pseudomultigrid algorithm for solving (initial-)boundary value problems on structured grids in a black-box manner. To overcome the problem of robustness, the presented Robust Multigrid Technique (RMT) is based on the application of the essential multigrid principle in a single grid algorithm. It results in an extremely simple, very robust and highly parallel solver with close-to-optimal algorithmic complexity and the least number of problem-dependent components. Topics covered include an introduction to the mathematical principles of multigrid methods, a detailed description of RMT, results of convergence analysis and complexity, possible expansion on unstructured grids, numerical experiments and a brief description of multigrid software, parallel RMT and estimations of speed-up and efficiency of the parallel multigrid algorithms, and finally applications of RMT for the numerical solution of the incompressible Navier-Stokes equations.
+This book presents a detailed description of a robust pseudomultigrid algorithm for solving (initial-)boundary value problems on structured grids in a black-box manner. To overcome the problem of robustness, the presented __Robust Multigrid Technique__ (RMT) is based on the application of the essential multigrid principle in a single grid algorithm. It results in an extremely simple, very robust and highly parallel solver with close-to-optimal algorithmic complexity and the least number of problem-dependent components. Topics covered include an introduction to the mathematical principles of multigrid methods, a detailed description of RMT, results of convergence analysis and complexity, possible expansion on unstructured grids, numerical experiments and a brief description of multigrid software, parallel RMT and estimations of speed-up and efficiency of the parallel multigrid algorithms, and finally applications of RMT for the numerical solution of the incompressible Navier-Stokes equations.
 
 ## Sequential Software for the Robust Multigrid Technique
 
@@ -30,7 +30,7 @@ This book (https://github.com/simartynenko/Robust_Multigrid_Technique_2020) cove
 
 ## List of modules
 
-Multigrid module `RMT_3D_2020_OpenMP` (chapter 3) includes subprograms for main components of RMT for parallel solving 3D boundary value problems. *The multigrid module is available as a static library only for Intel Fortran Compiler under Windows and GFortran under Linux operation systems.*
+Multigrid module `RMT_3D_2020_OpenMP` (chapter 3) includes subprograms for main components of RMT for parallel solving 3D boundary value problems. *The multigrid module is available as a static library only for Intel Fortran Compiler under Windows and GFortran under Linux and macOS operation systems.*
 
 Module `RMT_3D_UFG` includes the subprogram `U_Finest_Grid` for the uniform grid generation (§ 1, § 3 chapter 2 in book *«Sequential Software for the Robust Multigrid Technique»*).
 
