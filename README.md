@@ -2,7 +2,7 @@
 
 [![Fortran CI](https://github.com/simartynenko/Robust_Multigrid_Technique_2021_OpenMP/actions/workflows/ci.yml/badge.svg)](https://github.com/simartynenko/Robust_Multigrid_Technique_2021_OpenMP/actions/workflows/ci.yml)
 
-The repository contains examples and programs from the book *“Parallel Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko, Triumph, Moscow, 2021. Complete text of the book in Russian is available via the [link](../master/С.%20И.%20Мартыненко%20-%20Параллельное%20программное%20обеспечение%20для%20универсальной%20многосеточной%20технологии.pdf). Abstract in English, theoretical background and description of the source code files are provided below.
+The repository contains examples and programs from the book *“Parallel Software for the Robust Multigrid Technique”* by S.&nbsp;I.&nbsp;Martynenko, Triumph, Moscow, 2021. Complete text of the book in Russian is available via the [link](../main/С.%20И.%20Мартыненко%20-%20Параллельное%20программное%20обеспечение%20для%20универсальной%20многосеточной%20технологии.pdf). Abstract in English, theoretical background and description of the source code files are provided below.
 
 ## Abstract of the book
 
